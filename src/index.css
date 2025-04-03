@@ -525,3 +525,14 @@ label input {
 .debug-toggle-label {
     text-align: right;
 }
+
+.censored {
+  background: #000;
+  color: #000;
+}
+
+.censored {
+  color: var(--background-color);
+  color: transparent;
+  background: var(--text-color);
+}
